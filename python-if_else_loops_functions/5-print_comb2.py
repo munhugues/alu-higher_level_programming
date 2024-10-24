@@ -5,4 +5,4 @@ while (n < 100):
         print("{:0=2d}".format(n))
     else:
         print("{:0=2d}".format(n), end=", ")
-    n+=1
+    n += 1
