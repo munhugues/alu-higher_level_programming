@@ -6,6 +6,6 @@ def uppercase(string):
         if o in range(ord('a'),ord('z') + 1):
             result += chr(ord(c) - 32)
         else:
-            result += chr(c)
+            result += c
     print("{}".format(result), end="")
     print()
