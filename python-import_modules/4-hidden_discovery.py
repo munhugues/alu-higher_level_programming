@@ -8,4 +8,3 @@ if __name__ == "__main__":
     # Sort names alphabetically and print each one on a new line
     for name in sorted(names):
         print(name)
-
