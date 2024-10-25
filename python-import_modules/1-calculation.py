@@ -4,7 +4,7 @@ if __name__ == "__main__":
     import sys
     a = 10
     b = 5
-    sys.stdout.write("{} + {} = {}".format(a, b, add(a, b)))
-    sys.stdout.write("{} - {} = {}".format(a, b, sub(a, b)))
-    sys.stdout.write("{} * {} = {}".format(a, b, mul(a, b)))
-    sys.stdout.write("{} / {} = {}".format(a, b, div(a, b)))
+    sys.stdout.write("{} + {} = {}\n".format(a, b, add(a, b)))
+    sys.stdout.write("{} - {} = {}\n".format(a, b, sub(a, b)))
+    sys.stdout.write("{} * {} = {}\n".format(a, b, mul(a, b)))
+    sys.stdout.write("{} / {} = {}\n".format(a, b, div(a, b)))
