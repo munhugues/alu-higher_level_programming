@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+
 def safe_function(fct, *args):
     try:
         # Attempt to call the function with the provided arguments
