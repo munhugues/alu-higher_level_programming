@@ -4,10 +4,8 @@
 
 class Square:
     """Initialize the square with an optional size.
-
         Args:
             size (int): The size of one side of the square (default is 0).
-
         """
     def __init__(self, size = 0):
         """Raises:
