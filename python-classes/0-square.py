@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# Class Square to calculate it properties
+"""Defining the class"""
+
+
 class Square:
     """A class representing a square."""
     pass
