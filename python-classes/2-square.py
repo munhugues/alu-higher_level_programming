@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defining the class"""
+"""Defining the Square class"""
 
 
 class Square:
@@ -13,6 +13,7 @@ class Square:
         """Raises:
             TypeError: If size is not an integer.
             ValueError: If size is less than 0.
+
             """
         if not isinstance(size, int):
             raize ValueError("size must be an integer")
