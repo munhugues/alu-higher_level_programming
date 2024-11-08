@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 
+"""A class that represents a node in a singly linked list."""
 class Node:
-    """A class that represents a node in a singly linked list."""
 
     def __init__(self, data, next_node=None):
         """Initialize the node with data and an optional next_node.
@@ -55,9 +55,8 @@ class Node:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
-
+"""A class that represents a singly linked list."""
 class SinglyLinkedList:
-    """A class that represents a singly linked list."""
 
     def __init__(self):
         """Initialize an empty singly linked list."""
